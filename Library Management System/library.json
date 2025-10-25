@@ -1,0 +1,149 @@
+{
+    "books": [
+        {
+            "type": "Novel",
+            "title": "1984",
+            "author": "George Orwell",
+            "publication_year": 1949,
+            "is_borrowed": false,
+            "borrowed_by": null,
+            "genre": "Dystopia"
+        },
+        {
+            "type": "Novel",
+            "title": "The Hobbit",
+            "author": "J.R.R. Tolkien",
+            "publication_year": 1937,
+            "is_borrowed": true,
+            "borrowed_by": "faruk",
+            "genre": "Fantasy"
+        },
+        {
+            "type": "Novel",
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "publication_year": 1813,
+            "is_borrowed": false,
+            "borrowed_by": null,
+            "genre": "Romance"
+        },
+        {
+            "type": "Novel",
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "publication_year": 1960,
+            "is_borrowed": false,
+            "borrowed_by": null,
+            "genre": "Drama"
+        },
+        {
+            "type": "Novel",
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "publication_year": 1925,
+            "is_borrowed": false,
+            "borrowed_by": null,
+            "genre": "Classic"
+        },
+        {
+            "type": "Magazine",
+            "title": "National Geographic",
+            "author": "Various",
+            "publication_year": 2023,
+            "is_borrowed": false,
+            "borrowed_by": null,
+            "issue": "May"
+        },
+        {
+            "type": "Magazine",
+            "title": "Time",
+            "author": "Various",
+            "publication_year": 2023,
+            "is_borrowed": true,
+            "borrowed_by": "faruk",
+            "issue": "June"
+        },
+        {
+            "type": "Magazine",
+            "title": "Scientific American",
+            "author": "Various",
+            "publication_year": 2023,
+            "is_borrowed": false,
+            "borrowed_by": null,
+            "issue": "April"
+        },
+        {
+            "type": "Magazine",
+            "title": "Popular Science",
+            "author": "Various",
+            "publication_year": 2023,
+            "is_borrowed": false,
+            "borrowed_by": null,
+            "issue": "March"
+        },
+        {
+            "type": "Magazine",
+            "title": "Forbes",
+            "author": "Various",
+            "publication_year": 2023,
+            "is_borrowed": false,
+            "borrowed_by": null,
+            "issue": "July"
+        }
+    ],
+    "users": [
+        {
+            "name": "faruk",
+            "password": "1234",
+            "borrowed_books": [
+                "The Hobbit",
+                "Time"
+            ]
+        },
+        {
+            "name": "ayse",
+            "password": "abcd",
+            "borrowed_books": []
+        },
+        {
+            "name": "mehmet",
+            "password": "pass1",
+            "borrowed_books": []
+        },
+        {
+            "name": "zeynep",
+            "password": "pass2",
+            "borrowed_books": []
+        },
+        {
+            "name": "ali",
+            "password": "pass3",
+            "borrowed_books": []
+        },
+        {
+            "name": "elif",
+            "password": "pass4",
+            "borrowed_books": []
+        },
+        {
+            "name": "can",
+            "password": "pass5",
+            "borrowed_books": []
+        },
+        {
+            "name": "deniz",
+            "password": "pass6",
+            "borrowed_books": []
+        },
+        {
+            "name": "burak",
+            "password": "pass7",
+            "borrowed_books": []
+        },
+        {
+            "name": "melis",
+            "password": "pass8",
+            "borrowed_books": []
+        }
+    ]
+}
